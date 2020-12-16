@@ -1,0 +1,23 @@
+{
+    "editor.codeActionsOnSave": null,
+    "workbench.colorCustomizations": {
+        "[Horizon]": {
+          "activityBar.background": "#fade88",
+          "activityBar.foreground": "#042f4b",
+          "activityBar.inactiveForeground": "#dc914f",
+          "activityBarBadge.background": "#ed1250",
+          "activityBarBadge.foreground": "#fff6da",
+          "titleBar.activeBackground": "#042f4b",
+          "titleBar.inactiveBackground": "#143656",
+          "titleBar.activeForeground": "#fff6da",
+          "titleBar.inactiveForeground": "#c7c7c7",
+          "statusBar.background": "#fff6da",
+          "statusBarItem.hoverBackground": "#fbc99d",
+          "statusBar.foreground": "#042f4b",
+          "editorCursor.background": "#07689f",
+          "editorCursor.foreground": "#ffc93c",
+        },
+    
+      },
+      "workbench.colorTheme": "Horizon",
+}
