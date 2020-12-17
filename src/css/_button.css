@@ -1,7 +1,0 @@
-@layer base{
-
-    .pa-button{
-        @apply  bg-blue-300;
-    }
-
-}

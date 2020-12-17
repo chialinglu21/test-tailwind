@@ -19,7 +19,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.css$/, 
+                test: /\.s[ac]ss$/, 
                 use: [
                     MiniCssExtractPlugin.loader, 
                     {
@@ -27,10 +27,10 @@ module.exports = {
                         options: {
                             importLoaders: 1
                         }
-                    },                
-                    {
-                        loader: 'postcss-loader'
-                    }]
+                    },
+                    'postcss-loader',
+                    'sass-loader'
+                    ]
             },
             {
                 test: /\.(png|jpg|gif|svg)$/,

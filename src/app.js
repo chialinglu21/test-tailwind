@@ -1,4 +1,4 @@
-import './css/main.css';
+import './styles/main.scss';
 import { displayButton, nameParagraph} from './js/dom-loader';
 
 let showName = false;

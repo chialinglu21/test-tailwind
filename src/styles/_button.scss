@@ -1,0 +1,26 @@
+@layer base{
+
+    .pa-button{
+        @apply  bg-blue-400 px-4 py-1 mx-1 rounded-md uppercase;
+
+        &:hover{
+            @apply shadow-md;
+        }
+
+        &-secondary{
+            @apply bg-yellow-500;
+        }
+
+        &-success{
+            @apply bg-green-800 text-white;
+
+        }
+        &-error{
+            @apply bg-red-800 text-white;
+        }
+        &-warning{
+            @apply bg-pink-300;
+        }
+    }
+
+}
