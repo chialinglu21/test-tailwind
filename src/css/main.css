@@ -5,4 +5,9 @@
 @import "tailwindcss/utilities";
 
 
-@import './input-elements.css';
+@layer components{
+
+    .component-block{
+        @apply flex flex-row flex-wrap border-b-2 py-8 px-4;
+    }
+}
